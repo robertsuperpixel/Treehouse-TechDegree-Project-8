@@ -16,9 +16,7 @@ form {
 }
 .newsletter{
   text-align: right;
-
 }
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

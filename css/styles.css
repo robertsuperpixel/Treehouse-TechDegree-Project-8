@@ -69,26 +69,23 @@ header {
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.tag {
-  color: black;
+header h1.name {
+  color: #333;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+header .tag {
+  color: #781126;
+  font-size: 2.5em;
+  font-weight: bold
   padding: 10px;
   letter-spacing: 5px;
-}
-
-.name{
-  font-weight: 300;
-}
-
-header .name{
-  font-size: 3em;
-}
-.tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #f74467
 }
 
 .card {
@@ -101,7 +98,6 @@ header .name{
 .card:hover {
   border-color: #96731A;
 }
-
 
 .photo{
   display: block;
@@ -122,6 +118,10 @@ header .name{
   text-transform: uppercase;
   color: #f74467;
   margin-top: 10px;
+}
+
+a.buy:hover {
+  color: white;
 }
 
 /* Footer styles */
